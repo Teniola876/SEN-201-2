@@ -73,42 +73,22 @@ class LibrarySystem:
             if book.id == book_id:
                 book.is_available = False
 
+5. TestingTest Plan:We performed "Black Box Testing" to verify that the system functions correctly according to the requirements.Test Case IDActionInput DataExpected ResultPass/FailTC-01Add a new bookTitle: "Python Intro", ID: "101"System prints "Success"PASSTC-02Display BooksN/ALists "Python Intro" as AvailablePASSTC-03Borrow BookID: "101"Status changes to "Borrowed"PASSTC-04Borrow Invalid BookID: "999"Error: "Book ID not found"PASSTC-05Return BookID: "101"Status changes to "Available"PASSEvidence of ExecutionBelow is the log from the terminal showing the program running successfully:PlaintextSuccess: 'Introduction to Software Engineering' added to library.
+Success: 'Python for Beginners' added to library.
 
-## 5. Testing
-Test Plan: We performed "Black Box Testing" by simulating user inputs.
+--- Current Library Inventory ---
+[ID: SE101] Introduction to Software Engineering - Available
+[ID: PY200] Python for Beginners - Available
+---------------------------------
 
-                Test Case ID,Action,Input Data,Expected Result,Pass/Fail
-TC-01,Add a new book,"Title: ""Python Intro"", ID: ""101""","System prints ""Success""",PASS
-TC-02,Display Books,N/A,"Lists ""Python Intro"" as Available",PASS
-TC-03,Borrow Book,"ID: ""101""","Status changes to ""Borrowed""",PASS
-TC-04,Borrow Invalid Book,"ID: ""999""","Error: ""Book ID not found""",PASS
-TC-05,Return Book,"ID: ""101""","Status changes to ""Available""",PASS
+You have borrowed 'Introduction to Software Engineering'.
 
+--- Current Library Inventory ---
+[ID: SE101] Introduction to Software Engineering - Borrowed
+[ID: PY200] Python for Beginners - Available
+---------------------------------
 
-## 6. Maintenance
-Future Scope:
-
-Integration with a persistent database (SQL) instead of list storage.
-
-Adding a Graphical User Interface (GUI) using Tkinter or Framer.
-
-Adding "Student" class to track who borrowed the book.
-
-
-How to Run This Project
-Clone the repository:
-
-Bash
-
-git clone [https://github.com/YOUR_USERNAME/LibraryTracker.git](https://github.com/YOUR_USERNAME/LibraryTracker.git)
-
-Navigate to the directory:
-
-Bash
-
-cd LibraryTracker
-Run the python file:
-
-Bash
-
-python main.py
+You have returned 'Introduction to Software Engineering'.
+6. MaintenanceTo ensure the project remains useful, the following maintenance tasks are planned:Database Integration: Replace the current list-based storage with an SQLite database to ensure data is saved permanently.Error Handling: Improve the code to handle cases where a user inputs numbers instead of text.GUI Update: Build a visual interface using Tkinter or Framer so users don't have to use the terminal.How to Run This ProjectClone the repository:Bashgit clone https://github.com/Teniola876/SEN-201-2.git
+Navigate to the directory:Bashcd SEN-201-2
+Run the python file:Bashpython main.py
