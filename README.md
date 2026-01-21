@@ -125,3 +125,4 @@ To ensure the project remains useful and scalable, the following maintenance tas
    3. **Run the application:**
    ```bash
    python main.py
+   ```
