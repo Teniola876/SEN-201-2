@@ -72,6 +72,7 @@ class LibrarySystem:
         for book in self.inventory:
             if book.id == book_id:
                 book.is_available = False
+```
 ## 5. Testing Phase
 We performed functional testing to verify the system meets all requirements.
 
