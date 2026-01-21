@@ -100,3 +100,28 @@ Success: 'Data Structures in C++' added to library.
 ---------------------------------
 
 You have borrowed 'Introduction to Software Engineering'.
+```
+
+## 6. Maintenance
+To ensure the project remains useful and scalable, the following maintenance tasks are proposed:
+* **Database Integration:** Upgrade from list-based storage to an SQLite database so data persists.
+* **Input Validation:** Improve error handling to prevent crashes if a user enters invalid characters.
+* **GUI Implementation:** Develop a graphical user interface using Tkinter or Framer.
+
+---
+
+## How to Run This Project
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Teniola876/SEN-201-2.git](https://github.com/Teniola876/SEN-201-2.git)
+   ```
+
+   2. **Navigate to the project folder:**
+   ```bash
+   cd SEN-201-2
+   ```
+
+   3. **Run the application:**
+   ```bash
+   python main.py
