@@ -3,6 +3,7 @@
 NAME : AWODIRE TENIOLA ISRAEL,
 MATRIC NO : 24/13733,
 DEPARTMENT: SOFTWARE - ENGINEERING
+GITHUB-REPOSITORY:  https://github.com/Teniola876/SEN-201-2.git
 
 ## Project Overview
 This project is a console-based software application designed to manage the inventory of a small library. It demonstrates the complete Software Development Life Cycle (SDLC), from requirement gathering to implementation and testing.
