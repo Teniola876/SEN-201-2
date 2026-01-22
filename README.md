@@ -127,3 +127,12 @@ To ensure the project remains useful and scalable, the following maintenance tas
    ```bash
    python main.py
    ```
+
+    ## 👤 Author
+**Awodire Teniola**
+* **Course:** SEN 201 (Software Engineering)
+* **Institution:** Caleb University
+* **GitHub:** [@Teniola876](https://github.com/Teniola876)
+
+## 📄 License
+This project is open source and available under the [MIT License](LICENSE).
