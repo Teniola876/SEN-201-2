@@ -110,29 +110,31 @@ To ensure the project remains useful and scalable, the following maintenance tas
 * **GUI Implementation:** Develop a graphical user interface using Tkinter or Framer.
 
 ---
+## 🚀 How to Run This Project
 
-## How to Run This Project
+### Prerequisites
+* Ensure you have **Python 3.x** and **Git** installed.
+
+### Steps
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Teniola876/SEN-201-2.git](https://github.com/Teniola876/SEN-201-2.git)
+   git clone [https://github.com/](https://github.com/)[Your-Username]/[Your-Repo-Name].git
    ```
-
-   2. **Navigate to the project folder:**
+ 2. **Navigate to the project directory:**
    ```bash
-   cd SEN-201-2
+   cd SEN-201
    ```
-
-   3. **Run the application:**
+   3 .  **Run the script:**
    ```bash
-   python main.py
+   python hello_world.py
    ```
-
-    ## 👤 Author
+   ## 👤 Author
 **Awodire Teniola**
 * **Course:** SEN 201 (Software Engineering)
 * **Institution:** Caleb University
-* **GitHub:** [@Teniola876](https://github.com/Teniola876)
+* **GitHub:** [@Teniola876] https://github.com/Teniola876
 
 ## 📄 License
 This project is open source and available under the [MIT License](LICENSE).
+	
